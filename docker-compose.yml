@@ -4,7 +4,7 @@ services:
     image: n8nio/n8n
     restart: always
     ports:
-      - "5678:5678"
+      - "3000"
     environment:
       - GENERIC_TIMEZONE=Europe/Zurich
       - N8N_BASIC_AUTH_ACTIVE=true
